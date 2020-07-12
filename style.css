@@ -55,6 +55,17 @@ footer>div:nth-child(3) {
 
 footer>div:nth-child(3)>a {
 
+    margin-bottom: 5px;
+}
+
+footer>div:nth-child(4) {
+
+    display: flex;
+    flex-direction: column;
+}
+
+footer>div:nth-child(4)>a {
+
     margin-top: 10px;
     margin-bottom: 10px;
     display: flex;
@@ -65,6 +76,25 @@ footer>div>a {
     text-decoration: none;
     color: white;
 }
+
+
+.footerCopyright {
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+
+.footerCopyright>hr {
+    background-color: #67f572;
+    margin-bottom: 1px;
+    border-radius: 10px;
+    max-width: 626px;
+    margin: 0 auto;
+    border-color: transparent;
+}
+
+
+
 
 body {
     margin: 0px
