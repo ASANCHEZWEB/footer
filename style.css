@@ -41,6 +41,8 @@ footer>div:nth-child(1) {
 }
 footer>div:nth-child(1)>button {
 padding: 0px;
+margin-top: 10px;
+margin-bottom: 10px;
 }
 footer>div:nth-child(1)>a {
     margin-top: 10px;
